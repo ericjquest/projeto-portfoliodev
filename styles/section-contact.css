@@ -1,0 +1,81 @@
+#contact {
+  background-image: url(../assets/images/Background_Contacts.png);
+  background-size: cover;
+  width: 1366px;
+}
+
+#contact header {
+  justify-items: center;
+  padding-top: 128px;
+  margin-bottom: 48px;
+  
+  h2 {
+    font: var(--subtitle);
+    color: var(--purple);
+    padding-bottom: 8px;
+  }
+
+  h1 {
+    font: var(--title-md);
+    color: var(--gray-600);
+    padding-bottom: 8px;
+  }
+
+  p {
+    font: var(--text-md);
+    color: var(--gray-500);
+  }
+}
+
+main {
+  padding-bottom: 200px;
+}
+
+.socials-cards {
+  display: grid;
+  grid-template-columns: 28px 1fr 20px;
+  gap: 12px;
+  background-color: var(--gray-300);
+  width: 400px;
+  height: 68px;
+  border-radius: 8px;
+  padding-block: 20px;
+  padding-inline: 20px;
+  align-items: center;
+
+  p {
+    font: var(--text-md);
+    color: var(--gray-500);
+    
+  }
+
+}
+
+main {
+  justify-items: center;
+}
+
+.linkedin {
+  margin-block: 2.62px;
+  margin-inline: 2.62px;
+}
+
+.instagram {
+  margin-block: 2.62px;
+  margin-inline: 2.62px;
+}
+
+.github2 {
+  margin-top: 2.62px;
+  margin-right: 4.38px;
+  margin-bottom: 1.75px;
+}
+
+.email {
+  margin-block: 5.25px;
+  margin-inline: 2.63px;
+}
+
+.setinha {
+  margin: 4.38px;
+}
