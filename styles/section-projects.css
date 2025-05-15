@@ -1,0 +1,52 @@
+#projects header {
+  justify-items: center;
+  padding-top: 72px;
+  padding-bottom: 56px;
+}
+
+.trabalho {
+  font: var(--subtitle);
+  color: var(--red);
+  padding-bottom: 8px;
+}
+
+.projetos {
+  font: var(--title-md);
+  color: var(--gray-600);
+}
+
+.grid {
+  row-gap: 24px;
+  column-gap: 24px;
+}
+
+.project-card {
+  background-color: var(--gray-300);
+  border-radius: 12px;
+  max-width: 330px;
+  max-height: 280px;
+  padding-block: 12px;
+  padding-inline: 12px;
+  
+
+  img {
+    max-width: 306px;
+    max-height: 156px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+  }
+
+  h1 {
+    font: var(--title-sm);
+    color: var(--gray-600);
+    margin-inline: 4px;
+    padding-bottom: 4px;
+  }
+
+  p{
+    font: var(--text-sm);
+    color: var(--gray-500);
+    margin-inline: 4px;
+    margin-block: 4px;
+  }
+}
