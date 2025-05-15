@@ -18,6 +18,7 @@
 .grid {
   row-gap: 24px;
   column-gap: 24px;
+  padding-bottom: 144px;
 }
 
 .project-card {

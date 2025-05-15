@@ -1,0 +1,64 @@
+#services {
+  width: 1366px;
+  background-color: var(--gray-100);
+  padding-top: 88px;
+  padding-inline: 120px;
+  padding-bottom: 120px;
+}
+
+#services header {
+  justify-items: center;
+   margin-bottom: 56px;
+}
+
+.servicos {
+  font: var(--subtitle);
+  color: var(--red);
+  margin-bottom: 8px;
+}
+
+.negocio {
+  font: var(--title-md);
+  color: var(--gray-600);
+}
+
+.flex {
+  column-gap: 24px;
+}
+
+.service-card {
+  width: 280px;
+  height: 155px;
+  padding-block: 20px;
+  padding-inline: 20px;
+  border: 2px solid var(--gray-200);
+  border-radius: 12px;
+
+  h1 {
+    font: var(--title-sm);
+    color: var(--gray-600);
+    padding-top: 20px;
+    margin-bottom: 8px;
+  }
+
+  p {
+    font: var(--text-sm);
+    color: var(--gray-500);
+  }
+
+  .websites {
+    margin-left: 3px;
+    margin-right: 1.5px;
+    margin-block: 7.5px;
+  }
+
+  .api {
+    margin-block: 7.5px;
+    margin-inline: 6px;
+  }
+
+  .devops {
+    margin-block: 13.5px;
+    margin-inline: 1.5px;
+  }
+}
