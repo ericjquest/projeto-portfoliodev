@@ -31,6 +31,14 @@ main {
   padding-bottom: 200px;
 }
 
+.socials-cards:hover {
+  outline: 1.5px solid var(--blue);
+  transition: all 500ms;
+  & svg path {
+    fill: var(--blue);  
+  }
+}
+
 .socials-cards {
   display: grid;
   grid-template-columns: 28px 1fr 20px;
@@ -43,10 +51,15 @@ main {
   padding-inline: 20px;
   align-items: center;
 
+  & svg path {
+    fill: var(--gray-400);
+    width: 28px;
+    height: 28px;
+  }
+
   p {
     font: var(--text-md);
     color: var(--gray-500);
-    
   }
 
 }

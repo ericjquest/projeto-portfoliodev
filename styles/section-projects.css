@@ -21,6 +21,12 @@
   padding-bottom: 144px;
 }
 
+.project-card:hover {
+  outline: 1.5px solid var(--gray-400);
+  transition: all 500ms;
+  border-radius: 12px;
+}
+
 .project-card {
   background-color: var(--gray-300);
   border-radius: 12px;
